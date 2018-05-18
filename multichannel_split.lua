@@ -76,9 +76,6 @@ function Clip:GroupDuplicates()
     end
 end
 
-function Clip:Test()
-end
-
 reaper.Undo_BeginBlock()
 reaper.PreventUIRefresh(1)
 
