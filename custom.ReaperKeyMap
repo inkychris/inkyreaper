@@ -2,9 +2,10 @@ SCR 4 0 RS1ee9bb229dabffe151848d7efa3c10f748e1a1cf "Custom: lyrics.lua" Cockos/l
 SCR 4 32060 RS7d3c_1ee9bb229dabffe151848d7efa3c10f748e1a1cf "Custom: lyrics.lua" Cockos/lyrics.lua
 SCR 4 0 RS299c600c2cd187afc6497c9f95b3dd67fc5bb398 "Custom: multichannel_split.lua" multichannel_split.lua
 SCR 4 0 RS159c35b8696619d51c2f2a638cddf9910bed508a "Custom: reset_track_channel_counts.lua" reset_track_channel_counts.lua
+ACT 0 0 "571e697cae23a54fb4d3cb30fe9b339e" "Custom: Split items under mouse cursor" 40513 40528 40012
+SCR 4 0 RS0edaccfe700dba14f9f022b4ed18e748e794cb87 "Custom: close_spaces_between_items.lua" close_spaces_between_items.lua
 SCR 4 0 RS1ee9bb229dabffe151848d7efa3c10f748e1a1cf "Custom: lyrics.lua" Cockos/lyrics.lua
 SCR 4 32060 RS7d3c_1ee9bb229dabffe151848d7efa3c10f748e1a1cf "Custom: lyrics.lua" Cockos/lyrics.lua
-KEY 17 32807 0 0
 KEY 17 32805 0 0
 KEY 255 250 0 0
 KEY 9 221 0 0
@@ -12,14 +13,15 @@ KEY 255 251 0 0
 KEY 255 218 0 0
 KEY 13 67 0 0
 KEY 9 219 0 0
+KEY 17 32807 0 0
 KEY 255 6396 977 0
 KEY 255 248 989 0
 KEY 255 253 990 0
 KEY 1 32801 40172 0
 KEY 1 32802 40173 0
 KEY 5 192 40299 0
+KEY 1 81 40316 0
 KEY 5 9 40318 0
-KEY 1 9 40319 0
 KEY 13 82 40348 0
 KEY 9 9 40375 0
 KEY 13 9 40376 0
@@ -33,4 +35,5 @@ KEY 1 32805 _SWS_SCROLL_L10 0
 KEY 1 32807 _SWS_SCROLL_R10 0
 KEY 5 223 _SWS_BRMOVEEDITTONEXTENV 0
 KEY 13 223 _SWS_BRMOVEEDITTONEXTENVADDSELL 0
-KEY 1 112 _RS299c600c2cd187afc6497c9f95b3dd67fc5bb398 0
+KEY 1 9 _BR_MOVE_R_GRID_TO_EDIT_CUR 0
+KEY 1 72 _RS0edaccfe700dba14f9f022b4ed18e748e794cb87 0
